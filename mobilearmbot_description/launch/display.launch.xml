@@ -2,7 +2,7 @@
 <launch>
 
     <let name="urdf_path" 
-         value="$(find-pkg-share mobilearmbot_description)/urdf/my_robot.urdf.xacro"/>
+         value="$(find-pkg-share mobilearmbot_description)/urdf/standalone_arm.urdf.xacro"/>
     <let name="rviz_config_path" 
          value="$(find-pkg-share mobilearmbot_description)/rviz/urdf_config.rviz"/>
 

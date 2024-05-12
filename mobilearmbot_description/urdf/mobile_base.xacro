@@ -23,7 +23,6 @@
                     <cylinder radius="${wheel_radius}" length="${wheel_length}"/>
                 </geometry>
                 <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0"/>
-                <material name="grey"/>
             </collision>
             <xacro:cylinder_inertia m="1.0" r="${2*wheel_radius}" h="${2*wheel_length}"
                                     xyz="0 0 0" rpy="${pi / 2.0} 0 0"/>        
@@ -66,7 +65,6 @@
                 <sphere radius="${caster_wheel_radius}"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
-            <material name="grey"/>         
         </collision>
         <xacro:sphere_inertia m="0.5" r="${2*caster_wheel_radius}" 
                               xyz="0 0 0" rpy="0 0 0"/>

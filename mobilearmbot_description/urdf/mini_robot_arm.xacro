@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+    <link name="arm_base_link">
+
+    </link>
+    <link name="forearm_link">
+        
+    </link>
+    <link name="hand_link">
+        
+    </link>
+
+</robot>

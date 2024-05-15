@@ -31,8 +31,8 @@
                 </geometry>
                 <origin xyz="0 0 ${arm_length/2.0}" rpy="0 0 0"/>
             </collision>
-            <xacro:cylinder_inertia m="0.3" r="${arm_radius}" h="${arm_length}"
-                                    xyz="0 0 0" rpy="0 0 0"/>  
+            <xacro:cylinder_inertia m="0.3" r="${2*arm_radius}" h="${2*arm_length}"
+                                    xyz="0 0 ${arm_length/2.0}" rpy="0 0 0"/>  
         </link>
 
     </xacro:macro>
@@ -52,8 +52,8 @@
                 <cylinder radius="${arm_base_radius}" length="${arm_base_length}"/>
             </geometry>       
         </collision>
-        <xacro:cylinder_inertia m="0.5" r="${arm_base_radius}" h="${arm_base_length}"
-                                xyz="0 0 0" rpy="0 0 0"/>
+        <xacro:cylinder_inertia m="0.5" r="${2*arm_base_radius}" h="${2*arm_base_length}"
+                                xyz="0 0 ${arm_base_length/2.0}" rpy="0 0 0"/>
     </link>
 
     <xacro:arm_link link_name="forearm" color="yellow"/>

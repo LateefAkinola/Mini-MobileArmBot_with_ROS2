@@ -2,11 +2,11 @@
 ![Overview of the project](https://github.com/LateefAkinola/Mini-MobileArmBot_with_ROS2/assets/105966848/1976c9bc-154f-488a-87d3-69c505874900)
 
 ## Description
-In this project, we simply modeled a mobile base robot with a camera sensor to provide vision for navigation. A simple robot arm was then added on top of the mobile base for manipulation. 
+In this project, we simply modeled a mobile base robot with a camera sensor to provide vision for navigation. A simple robot arm was then added on top of the mobile base for manipulation.
 Gazebo plugins were used:
-- to configure the sensor
-- the differential drive control for the rear wheels
-- the joint state publisher and pose trajectory updates for the robot arm joints
+- [x] to configure the sensor
+- [x] for the differential drive control for the rear wheels
+> for the joint state publisher and pose trajectory updates for the robot arm joints
 
 ## Installation
 ```bash

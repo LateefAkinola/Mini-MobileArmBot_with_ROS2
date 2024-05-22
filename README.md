@@ -6,7 +6,7 @@ In this project, we simply modeled a mobile base robot with a camera sensor to p
 Gazebo plugins were used:
 - [x] to configure the sensor
 - [x] for the differential drive control for the rear wheels
-> for the joint state publisher and pose trajectory updates for the robot arm joints
+- [x] for the joint state publisher and pose trajectory updates for the robot arm joints
 
 ## Installation
 ```bash
@@ -42,8 +42,8 @@ ros2 launch mobilearmbot_bringup mobilearmbot_gazebo.launch.xml
 
 ## Future Work
 This project can be further enhanced by adding grippers in the arm of the robot to help with diverse manipulation activities such as:
-* Pick and Place;
-* Material Handling;
-* Assembly;
-* Welding;
-* Harvesting and Agricultural Tasks, etc.
+- [x] Pick and Place;
+- [x] Material Handling;
+- [x] Assembly;
+- [x] Welding;
+- [x] Harvesting and Agricultural Tasks, etc.

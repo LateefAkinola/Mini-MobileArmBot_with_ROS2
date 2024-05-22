@@ -47,3 +47,5 @@ This project can be further enhanced by adding grippers in the arm of the robot 
 - [x] Assembly;
 - [x] Welding;
 - [x] Harvesting and Agricultural Tasks, etc.
+
+Thank you :smile:

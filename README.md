@@ -24,7 +24,7 @@ git clone https://github.com/LateefAkinola/Mini-MobileArmBot_with_ROS2.git
 ```
 ```bash
 # Navigate back to the mobilearmbot_ws/ directory
-cd ../..
+cd ..
 ```
 ```bash
 # Build

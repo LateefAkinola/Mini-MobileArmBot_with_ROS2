@@ -52,7 +52,4 @@
         </sensor>
     </gazebo>
 
-    <gazebo>
-
-    </gazebo>
 </robot>
